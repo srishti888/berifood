@@ -32,7 +32,7 @@ class VoucherPage extends StatelessWidget {
           Column(
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                 child: Row(
                   children: [
                     Image.asset("assets/icons/voucher.png"),
@@ -45,7 +45,7 @@ class VoucherPage extends StatelessWidget {
                 ),
               ),
               Container(
-                child: SingleChildScrollView(
+                child: const SingleChildScrollView(
                   scrollDirection: Axis.vertical,
                   child: Column(
                     children: [

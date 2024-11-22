@@ -29,7 +29,7 @@ class FoodPage extends StatelessWidget {
       body: ListView(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             child: Column(
               children: [
                 //Search Bar Start
@@ -46,7 +46,7 @@ class FoodPage extends StatelessWidget {
                             .withOpacity(0.5),
                         spreadRadius: 7,
                         blurRadius: 10,
-                        offset: Offset(0, 0), // changes position of shadow
+                        offset: const Offset(0, 0), // changes position of shadow
                       ),
                     ],
                   ),
@@ -78,7 +78,7 @@ class FoodPage extends StatelessWidget {
                             .withOpacity(0.5),
                         spreadRadius: 7,
                         blurRadius: 10,
-                        offset: Offset(0, 0), // changes position of shadow
+                        offset: const Offset(0, 0), // changes position of shadow
                       ),
                     ],
                   ),
@@ -91,7 +91,7 @@ class FoodPage extends StatelessWidget {
                             .copyWith(fontWeight: FontWeight.w500),
                       ),
                       const Gap(125),
-                      Icon(Icons.arrow_forward_ios),
+                      const Icon(Icons.arrow_forward_ios),
                     ],
                   ),
                 ),
@@ -102,7 +102,7 @@ class FoodPage extends StatelessWidget {
                 const Gap(25),
 
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [

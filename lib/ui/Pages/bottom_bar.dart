@@ -48,24 +48,24 @@ class _BottomBarState extends State<BottomBar> {
         selectedItemColor: primary,
         type: BottomNavigationBarType.fixed,
         unselectedItemColor: const Color(0xFFB7B7B7),
-        items: [
-          const BottomNavigationBarItem(
+        items: const [
+          BottomNavigationBarItem(
             icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
             activeIcon: Icon(FluentSystemIcons.ic_fluent_home_regular),
             label: 'null',
           ),
-          const BottomNavigationBarItem(
+          BottomNavigationBarItem(
               icon: Icon(FluentSystemIcons.ic_fluent_trophy_regular),
               activeIcon: Icon(FluentSystemIcons.ic_fluent_trophy_regular),
               label: 'null'),
-          const BottomNavigationBarItem(
-              icon: const Icon(
+          BottomNavigationBarItem(
+              icon: Icon(
                   FluentSystemIcons.ic_fluent_people_community_regular),
               activeIcon:
                   Icon(FluentSystemIcons.ic_fluent_people_community_regular),
               label: 'Tickets'),
-          const BottomNavigationBarItem(
-              icon: const Icon(
+          BottomNavigationBarItem(
+              icon: Icon(
                   FluentSystemIcons.ic_fluent_document_footer_regular),
               activeIcon:
                   Icon(FluentSystemIcons.ic_fluent_document_footer_regular),

@@ -44,9 +44,9 @@ class AppRoutes {
         ),
         GetPage(
           name: '/voucher',
-          page: () => VoucherPage(),
+          page: () => const VoucherPage(),
         ),
-        GetPage(name: '/profile', page: () => ProfilePage()),
-        GetPage(name: '/food', page: () => FoodPage()),
+        GetPage(name: '/profile', page: () => const ProfilePage()),
+        GetPage(name: '/food', page: () => const FoodPage()),
       ];
 }

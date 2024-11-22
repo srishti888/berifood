@@ -17,7 +17,7 @@ class LoginPage extends StatelessWidget {
               Container(
                 height: 300,
                 width: 200,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/icons/berifood_app_alt.png'),
                   ),
@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Gap(10),
+                  const Gap(10),
                   Container(
                     height: 50,
                     width: 320,
@@ -65,7 +65,7 @@ class LoginPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Gap(10),
+                  const Gap(10),
                   Text(
                     "Lupa kata sandi?",
                     style: TextStyle(
@@ -74,17 +74,17 @@ class LoginPage extends StatelessWidget {
                   ),
                 ],
               ),
-              Gap(50),
+              const Gap(50),
               Container(
                 height: 50,
                 width: 320,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Color(0xFF8647ED),
+                  color: const Color(0xFF8647ED),
                 ),
                 child: TextButton(
                   onPressed: () => Get.toNamed('/home'),
-                  child: Text(
+                  child: const Text(
                     "Masuk",
                     style: TextStyle(
                       color: Colors.white,
@@ -93,7 +93,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
-              Gap(50),
+              const Gap(50),
               Column(children: [
                 Center(
                   child: Text(
@@ -104,14 +104,14 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                 ),
-                Gap(35),
+                const Gap(35),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 40,
                       height: 40,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage('assets/icons/google.png'),
                         ),
@@ -120,7 +120,7 @@ class LoginPage extends StatelessWidget {
                     Container(
                       width: 40,
                       height: 40,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage('assets/icons/facebook.png'),
                         ),
@@ -129,7 +129,7 @@ class LoginPage extends StatelessWidget {
                     Container(
                       width: 40,
                       height: 40,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage('assets/icons/twitter.png'),
                         ),
@@ -137,7 +137,7 @@ class LoginPage extends StatelessWidget {
                     ),
                   ],
                 ),
-                Gap(70),
+                const Gap(70),
                 Center(
                     child: RichText(
                         text: TextSpan(
@@ -146,7 +146,7 @@ class LoginPage extends StatelessWidget {
                     color: Colors.grey.shade700,
                     fontSize: 16,
                   ),
-                  children: [
+                  children: const [
                     TextSpan(
                       text: "Buat Akun",
                       style: TextStyle(

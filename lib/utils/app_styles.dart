@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Color primary = Color(0xFF8647ED);
+Color primary = const Color(0xFF8647ED);
 
 class Styles {
   static Color primaryColor = primary;
@@ -16,7 +16,7 @@ class Styles {
   static TextStyle headLineStyle2 =
       TextStyle(fontSize: 17, color: textColor, fontWeight: FontWeight.bold);
   static TextStyle headLineStyle3 =
-      TextStyle(fontSize: 12, fontWeight: FontWeight.w600);
+      const TextStyle(fontSize: 12, fontWeight: FontWeight.w600);
   static TextStyle headLineStyle4 = TextStyle(
       fontSize: 14, color: Colors.grey.shade500, fontWeight: FontWeight.w500);
 }

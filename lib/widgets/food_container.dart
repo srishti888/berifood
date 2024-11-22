@@ -19,7 +19,7 @@ class FoodContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         width: 350,
         height: 120,
         decoration: BoxDecoration(
@@ -27,10 +27,10 @@ class FoodContainer extends StatelessWidget {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                color: Color.fromARGB(255, 212, 211, 211).withOpacity(0.5),
+                color: const Color.fromARGB(255, 212, 211, 211).withOpacity(0.5),
                 spreadRadius: 5,
                 blurRadius: 7,
-                offset: Offset(0, 3), // changes position of shadow
+                offset: const Offset(0, 3), // changes position of shadow
               ),
             ]),
         child: Row(
@@ -41,7 +41,7 @@ class FoodContainer extends StatelessWidget {
               child: Image.asset(imgList),
             ),
             Container(
-              padding: EdgeInsets.only(left: 10),
+              padding: const EdgeInsets.only(left: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -62,7 +62,7 @@ class FoodContainer extends StatelessWidget {
                       children: [
                         Image.asset("assets/icons/coin.png"),
                         const Gap(5),
-                        Text("4.000 Coin"),
+                        const Text("4.000 Coin"),
                       ],
                     ),
                   ),

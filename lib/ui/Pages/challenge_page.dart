@@ -31,7 +31,7 @@ class ProfilePage extends StatelessWidget {
       body: ListView(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             child: Column(
               children: [
                 Row(
@@ -39,7 +39,7 @@ class ProfilePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                          padding: EdgeInsets.all(10),
+                          padding: const EdgeInsets.all(10),
                           child: Container(
                             width: 110,
                             height: 110,
@@ -51,7 +51,7 @@ class ProfilePage extends StatelessWidget {
                                 Container(
                                   width: 110,
                                   height: 70,
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                       color: Color(0xFFC7D3FF),
                                       borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(10),
@@ -88,7 +88,7 @@ class ProfilePage extends StatelessWidget {
                       ],
                     ),
                     Container(
-                      padding: EdgeInsets.only(left: 15),
+                      padding: const EdgeInsets.only(left: 15),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -105,13 +105,13 @@ class ProfilePage extends StatelessWidget {
                           Row(
                             children: [
                               Image.asset("assets/icons/coin.png"),
-                              Text(
+                              const Text(
                                 "1000",
                                 style: TextStyle(fontSize: 12),
                               ),
-                              Gap(10),
+                              const Gap(10),
                               Image.asset("assets/icons/diamond.png"),
-                              Text(
+                              const Text(
                                 "123",
                                 style: TextStyle(fontSize: 12),
                               ),
@@ -124,7 +124,7 @@ class ProfilePage extends StatelessWidget {
                                 width: 200,
                                 height: 10,
                                 decoration: BoxDecoration(
-                                  color: Color(0xFFE8E8E8),
+                                  color: const Color(0xFFE8E8E8),
                                   borderRadius: BorderRadius.circular(10),
                                 ),
                                 child: Stack(
@@ -143,11 +143,11 @@ class ProfilePage extends StatelessWidget {
                             ],
                           ),
                           const Gap(10),
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Text("100/240"),
-                              const Gap(90),
+                              Gap(90),
                               Text("Level Up"),
                             ],
                           ),
@@ -158,13 +158,13 @@ class ProfilePage extends StatelessWidget {
                                 width: 200,
                                 height: 50,
                                 decoration: BoxDecoration(
-                                    color: Color.fromARGB(255, 214, 213, 213),
+                                    color: const Color.fromARGB(255, 214, 213, 213),
                                     borderRadius: BorderRadius.circular(10)),
                                 child: Row(
                                   children: [
                                     Container(
                                       width: 30,
-                                      padding: EdgeInsets.only(left: 10),
+                                      padding: const EdgeInsets.only(left: 10),
                                       child: Image.asset(
                                           "assets/icons/ribbon.png"),
                                     ),
@@ -187,7 +187,7 @@ class ProfilePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Container(
-                      padding: EdgeInsets.only(left: 10),
+                      padding: const EdgeInsets.only(left: 10),
                       child: Text("Tantangan saat ini",
                           style: Styles.headLineStyle3.copyWith(fontSize: 14)),
                     ),
@@ -197,7 +197,7 @@ class ProfilePage extends StatelessWidget {
                 Column(
                   children: [
                     Container(
-                      padding: EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(20),
                       width: 350,
                       height: 80,
                       decoration: BoxDecoration(
@@ -244,11 +244,11 @@ class ProfilePage extends StatelessWidget {
                     ),
                     const Gap(10),
                     Container(
-                      padding: EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(20),
                       width: 350,
                       height: 80,
                       decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 211, 211, 211),
+                        color: const Color.fromARGB(255, 211, 211, 211),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Row(
@@ -291,11 +291,11 @@ class ProfilePage extends StatelessWidget {
                     ),
                     const Gap(10),
                     Container(
-                      padding: EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(20),
                       width: 350,
                       height: 80,
                       decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 211, 211, 211),
+                        color: const Color.fromARGB(255, 211, 211, 211),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Row(
@@ -348,11 +348,11 @@ class ProfilePage extends StatelessWidget {
                           selectedColor: primary,
                           unselectedColor: Colors.white,
                           borderRadius: BorderRadius.circular(20)),
-                      buttons: ["New", "Weekly", "Montly"],
+                      buttons: const ["New", "Weekly", "Montly"],
                     ),
                   ],
                 ),
-                Divider(
+                const Divider(
                   color: Color.fromARGB(255, 126, 126, 126),
                   thickness: 0.3,
                 ),
@@ -361,7 +361,7 @@ class ProfilePage extends StatelessWidget {
                   width: 350,
                   height: 100,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 217, 217, 217),
+                    color: const Color.fromARGB(255, 217, 217, 217),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Row(
@@ -370,7 +370,7 @@ class ProfilePage extends StatelessWidget {
                         children: [
                           Container(
                             padding:
-                                EdgeInsets.only(bottom: 10, left: 20, top: 30),
+                                const EdgeInsets.only(bottom: 10, left: 20, top: 30),
                             child: RichText(
                               text: TextSpan(
                                 children: <TextSpan>[
@@ -381,7 +381,7 @@ class ProfilePage extends StatelessWidget {
                                       text: "Baca 5 Artikel yang ada",
                                       style: Styles.headLineStyle2.copyWith(
                                           color:
-                                              Color.fromARGB(255, 84, 84, 84),
+                                              const Color.fromARGB(255, 84, 84, 84),
                                           fontSize: 14)),
                                 ],
                               ),
@@ -394,25 +394,25 @@ class ProfilePage extends StatelessWidget {
                         children: [
                           Container(
                             padding:
-                                EdgeInsets.only(left: 70, top: 10, bottom: 10),
+                                const EdgeInsets.only(left: 70, top: 10, bottom: 10),
                             child: Row(
                               children: [
                                 Image.asset(
                                   "assets/icons/spark.png",
                                   scale: 0.7,
                                 ),
-                                Text("30"),
+                                const Text("30"),
                                 const Gap(10),
                                 Image.asset("assets/icons/coin.png",
                                     scale: 1.2),
-                                Text("150"),
+                                const Text("150"),
                               ],
                             ),
                           ),
                           Container(
                             height: 35,
                             width: 80,
-                            child: Center(
+                            child: const Center(
                               child: Text(
                                 "Ambil",
                                 style: TextStyle(
@@ -422,7 +422,7 @@ class ProfilePage extends StatelessWidget {
                               ),
                             ),
                             decoration: BoxDecoration(
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                   begin: Alignment.topRight,
                                   end: Alignment.bottomLeft,
                                   stops: [

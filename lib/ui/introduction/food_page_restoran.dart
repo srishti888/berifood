@@ -41,14 +41,14 @@ class TukarPoin extends StatelessWidget {
           Column(
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 25),
                 child: Container(
                   height: 100,
                   width: 350,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10), color: primary),
                   child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -99,7 +99,7 @@ class TukarPoin extends StatelessWidget {
               //Food ContainerExchange Section
 
               Container(
-                child: SingleChildScrollView(
+                child: const SingleChildScrollView(
                   scrollDirection: Axis.vertical,
                   child: Column(
                     children: [
@@ -110,21 +110,21 @@ class TukarPoin extends StatelessWidget {
                         expTitle: "17 April 2025",
                         imgList: "assets/images/sosis_mayo.png",
                       ),
-                      const Gap(20),
+                      Gap(20),
                       FoodContainer(
                           titleText: "Sate Ayam Merah",
                           subtitleText:
                               "Sate ayam dengan bakaran merah\n yang lezat",
                           expTitle: "20 Desember 2023",
                           imgList: "assets/images/sate.png"),
-                      const Gap(20),
+                      Gap(20),
                       FoodContainer(
                           titleText: "Roti Bakar Keju",
                           subtitleText:
                               "Roti bakar nikmat dengan\n keju mozarella",
                           expTitle: "2 November 2023",
                           imgList: "assets/images/roti.png"),
-                      const Gap(20),
+                      Gap(20),
                       FoodContainer(
                         titleText: "Sosis Mayo",
                         subtitleText:
@@ -132,14 +132,14 @@ class TukarPoin extends StatelessWidget {
                         expTitle: "17 April 2025",
                         imgList: "assets/images/sosis_mayo.png",
                       ),
-                      const Gap(20),
+                      Gap(20),
                       FoodContainer(
                           titleText: "Sate Ayam Merah",
                           subtitleText:
                               "Sate ayam dengan bakaran merah\n yang lezat",
                           expTitle: "20 Desember 2023",
                           imgList: "assets/images/sate.png"),
-                      const Gap(20),
+                      Gap(20),
 
                       //override
                     ],

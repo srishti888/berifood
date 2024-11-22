@@ -12,7 +12,7 @@ class TutorialPageTwo extends StatelessWidget {
       body: Container(
         alignment: Alignment.center,
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -28,25 +28,25 @@ class TutorialPageTwo extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                   ),
                   "Manfaatkan aplikasi ini untuk membeli makanan yang akan segera kadaluarsa"),
-              SizedBox(height: 170),
+              const SizedBox(height: 170),
               InkWell(
                 onTap: () => Get.toNamed("/introduction3"),
                 child: Container(
                   alignment: Alignment.center,
-                  child: Text(
+                  child: const Text(
                     "Lanjut",
                     style: TextStyle(fontSize: 16, color: Colors.white),
                   ),
                   width: 300,
                   height: 50,
                   decoration: BoxDecoration(
-                    color: Color(0xFF8647ED),
+                    color: const Color(0xFF8647ED),
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(top: 20),
+                padding: const EdgeInsets.only(top: 20),
                 child: Text(
                   "Lewati",
                   style: TextStyle(

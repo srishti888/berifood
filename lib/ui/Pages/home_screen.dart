@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   "Hi, Bayu",
                   style:
-                      Styles.headLineStyle1.copyWith(color: Color(0xFF8647ED)),
+                      Styles.headLineStyle1.copyWith(color: const Color(0xFF8647ED)),
                 ),
                 Stack(
                   children: [
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                       child: Container(
                         height: 35,
                         width: 35,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage("assets/icons/bell.png"),
                           ),
@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                           .withOpacity(0.5),
                       spreadRadius: 7,
                       blurRadius: 10,
-                      offset: Offset(0, 0), // changes position of shadow
+                      offset: const Offset(0, 0), // changes position of shadow
                     ),
                   ],
                 ),
@@ -86,7 +86,7 @@ class HomeScreen extends StatelessWidget {
 
               const Gap(30),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
                 width: 340,
                 height: 150,
                 decoration: BoxDecoration(
@@ -144,9 +144,9 @@ class HomeScreen extends StatelessWidget {
 
               //Leveling Section Start
 
-              Gap(30),
+              const Gap(30),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                 width: 350,
                 height: 100,
                 decoration: BoxDecoration(
@@ -238,7 +238,7 @@ class HomeScreen extends StatelessWidget {
 
               const Gap(30),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 10),
                 width: 350,
                 height: 150,
                 child: Row(
@@ -284,11 +284,11 @@ class HomeScreen extends StatelessWidget {
           ),
 
           //bottom navigation bar
-          Gap(150),
+          const Gap(150),
           Container(
             width: 350,
             height: 60,
-            child: BottomBar(),
+            child: const BottomBar(),
           ),
         ],
       ),

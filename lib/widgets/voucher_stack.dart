@@ -18,7 +18,7 @@ class VoucherStack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 25),
         child: Container(
           height: 150,
           width: 350,
@@ -31,7 +31,7 @@ class VoucherStack extends StatelessWidget {
                     const Color.fromARGB(255, 236, 236, 236).withOpacity(0.5),
                 spreadRadius: 7,
                 blurRadius: 10,
-                offset: Offset(0, 0), // changes position of shadow
+                offset: const Offset(0, 0), // changes position of shadow
               ),
             ],
           ),
@@ -46,14 +46,14 @@ class VoucherStack extends StatelessWidget {
                 height: 150,
                 decoration: BoxDecoration(
                   color: Styles.secondary,
-                  borderRadius: BorderRadius.only(
+                  borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(10),
                     bottomLeft: Radius.circular(10),
                   ),
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(left: 160),
+                padding: const EdgeInsets.only(left: 160),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -64,16 +64,16 @@ class VoucherStack extends StatelessWidget {
                     const Gap(10),
                     Text(descLine,
                         style: Styles.headLineStyle3.copyWith(
-                            color: Color.fromARGB(255, 163, 163, 163))),
+                            color: const Color.fromARGB(255, 163, 163, 163))),
                     const Gap(10),
                     Text("Kode Voucher : 123456789",
                         style: Styles.headLineStyle3.copyWith(
-                            color: Color.fromARGB(255, 163, 163, 163),
+                            color: const Color.fromARGB(255, 163, 163, 163),
                             fontSize: 11)),
                     const Gap(10),
                     Text("Berlaku sampai 31 Desember 2021",
                         style: Styles.headLineStyle3.copyWith(
-                            color: Color.fromARGB(
+                            color: const Color.fromARGB(
                               255,
                               71,
                               71,
